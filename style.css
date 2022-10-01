@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body{
+    margin: 237px auto;
+    background-color: url;
+    background-image: url(./img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-position: center;
+    /* background-attachment:; */
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: block;
+    text-align: center;
+    /* width: 350px; */
+    margin: auto;
+    /* justify-content: space-around; */
+}
+.card{
+    border: solid 5px black;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.488);
+    position: relative;
+    background-color: white;
+}   
+img{
+    width: 100%;
+}
+.one,.two,.three{
+    margin: auto 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.color1,.color2,.color3{
+    padding: 3px;
+    margin: 30px;
+    border-radius: 40px;
+}
+.color1{
+    background-color: rgb(218, 0, 0);
+}
+.color2{
+    background-color: rgb(245, 237, 0);
+}
+.color3{
+    background-color: rgb(255, 68, 0);
+}
+.react{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.36);
+    margin-top: -80px;
+}
+i{
+    padding: 5px 10px;
+    font-size: 30px;
+}
+.Isome,.Shoon{
+    display: inline-block;
+}
+.p1{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.134);
+}
+.p2{
+    font-size: 22px;
+}
+.p3{
+    color: rgba(0, 0, 0, 0.638);
+}
+h1{
+    text-align: center;
+    padding-bottom:30px;
+    font-size: 80px;
+    border-bottom: dashed 5px black;
+    margin: 0px 500px;
+    margin-bottom: 50px;
+}
